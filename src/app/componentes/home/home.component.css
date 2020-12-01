@@ -1,0 +1,48 @@
+/* ------------------------- */
+/* Footer */
+/* ------------------------- */
+footer .redes-sociales {
+    display: flex;
+    position: relative;
+	align-content:  center;;
+	justify-content: center;
+    padding: 20px;
+    top:5px;
+	flex-wrap: wrap;
+}
+
+footer .redes-sociales a {
+	display: block;
+	width: 60px;
+	height: 60px;
+	background: #000;
+	color: #fff;
+	margin: 20px;
+	text-align: center;
+	border-radius: 300px;
+	transition: .3s ease all;
+}
+
+footer .redes-sociales .facebook {
+	background: #3b5998;
+}
+
+footer .redes-sociales a i {
+	font-size: 40px;
+	line-height: 60px;
+}
+.card{
+	filter: alpha(opacity=50);
+}
+.card-text{
+	text-align: justify;
+	text-size-adjust: 50px;
+	font: 150% sans-serif;
+}
+#imagenR{
+	position: relative;
+
+    height: 270px;
+	width: 270px;
+	border-radius: 300px;
+}
